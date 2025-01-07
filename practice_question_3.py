@@ -87,3 +87,11 @@ print()
 a = int(input("Enter first value: "))
 print(a)
 print("The increamental value is" + str(a+1) + "And the decreamental value is" + str(a-1))
+
+# Q10.Write a program that takes three numbers as input and calculates their average.
+a = int(input("Enter the value of first number: "))
+b = int(input("Enter the value of second number: "))
+c = int(input("Enter the value of third number: "))
+d = (a + b + c / 3)
+print(d, "is the average of these number")
+print()

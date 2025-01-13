@@ -14,10 +14,28 @@
 
 # ---------------------------------------------FACTORIAL---------------------------------------------
 
+# a = int(input("Enter your number: "))
+# fact = 1
+# while( a >= 1):
+#     fact = fact * a
+#     a = a - 1
+
+# print(fact)
+
+
+# a = int(input("Enter your number: "))
+# i = 1
+# fact = 1 
+
+# while( i <= a ):
+#     fact = fact * i
+#     i = i + 1
+# print(fact)
+
 a = int(input("Enter your number: "))
 fact = 1
-while( a >= 1):
-    fact = fact * a
-    a = a - 1
-
+i = a
+while( i > 0 ):
+    fact = fact * i 
+    i = i - 1
 print(fact)

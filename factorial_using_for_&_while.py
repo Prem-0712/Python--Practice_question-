@@ -24,9 +24,8 @@
 # -------BOTTOM TO TOP USING FOR LOOP----------
 
 a = int(input("Enter your number: "))
-for i in range(a):
-    print(i + (a - 1))
-    a -= 1
+for i in range(a, -1, -1):
+    print(i)
 
 
 # ----------------------FACTORIAL---------------------------------------------

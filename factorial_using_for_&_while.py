@@ -14,12 +14,20 @@
 #     print(i)
 #     i += 1
 
-# ---------------BOTTOM TO TOP----------------------------------
+#---------BOTTOM TO TOP USING WHILE LOOP----------------------------------
 
 # a = int(input("Enter your number: "))
-# while ( a >= 0):
+# while (a >= 0):
 #     print(a)
-#     a = a - 1
+#     a -= 1
+
+# -------BOTTOM TO TOP USING FOR LOOP----------
+
+a = int(input("Enter your number: "))
+for i in range(a):
+    print(i + (a - 1))
+    a -= 1
+
 
 # ----------------------FACTORIAL---------------------------------------------
 

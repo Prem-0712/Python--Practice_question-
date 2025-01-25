@@ -23,10 +23,9 @@
 
 # -------BOTTOM TO TOP USING FOR LOOP----------
 
-a = int(input("Enter your number: "))
-for i in range(a, -1, -1):
-    print(i)
-
+# a = int(input("Enter your number: "))
+# for i in range(a, -1, -1):
+#     print(i)
 
 # ----------------------FACTORIAL---------------------------------------------
 

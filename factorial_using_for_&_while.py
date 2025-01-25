@@ -1,10 +1,18 @@
-# ---------------------TOP TO BOTTOM NUMBERS--------------------------------------------
+# --TOP TO BOTTOM NUMBERS USING WHILE LOOP---------
 
 # a = int(input("Enter your number: "))
 # i = 0
-# while (i <= a):
+# while( i <= a):
 #     print(i)
-#     i = i + 1
+#     i += 1
+
+
+# -----TOP TO BOTTOM USING FOR LOOP-----------
+
+# a = int(input("Enter your number: "))
+# for i in range(a + 1):
+#     print(i)
+#     i += 1
 
 # ---------------BOTTOM TO TOP----------------------------------
 
@@ -15,11 +23,11 @@
 
 # ----------------------FACTORIAL---------------------------------------------
 
-a = int(input("Enter your number: "))
-fact = 1
-while( a >= 1):
-    fact = fact * a
-    a = a - 1
+# a = int(input("Enter your number: "))
+# fact = 1
+# while( a >= 1):
+#     fact = fact * a
+#     a = a - 1
 
 # print(fact)
 
@@ -33,10 +41,10 @@ while( a >= 1):
 #     i = i + 1
 # print(fact)
 
-a = int(input("Enter your number: "))
-fact = 1
-i = a
-while( i > 0 ):
-    fact = fact * i 
-    i = i - 1
-print(fact)
+# a = int(input("Enter your number: "))
+# fact = 1
+# i = a
+# while( i > 0 ):
+#     fact = fact * i 
+#     i = i - 1
+# print(fact)

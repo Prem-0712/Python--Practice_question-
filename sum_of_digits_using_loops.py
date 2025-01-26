@@ -2,10 +2,10 @@
 
 # a = int(input("Enter your number: "))
 # sum = 0
-# while ( a > 0):
+# while ( a > 0 ):
 #     x = a % 10
-#     sum = sum + x
-#     a = a // 10
+#     sum += x
+#     a //= 10
 # print(sum)
 
 # -------SUM OF DIGITS USING FOR LOOP--------------

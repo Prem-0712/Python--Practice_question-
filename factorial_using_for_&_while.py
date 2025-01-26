@@ -33,11 +33,12 @@
 # i = 1
 # fact = 1
 # while(i <= a):
-#     fact = fact * i
+#     fact *= i
 #     i += 1
 # print(fact)
 
 # --------FACTORIAL USING WHILE LOOP & TOP TO BOTTOM--------
+
 # a = int(input("Enter your number: "))
 # fact = 1
 # while ( a >= 1):

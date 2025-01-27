@@ -2,7 +2,7 @@
 
 # a = int(input("Enter your number: "))
 # i = 0
-# while( i <= a):
+# while ( i <= a ):
 #     print(i)
 #     i += 1
 
@@ -12,12 +12,11 @@
 # a = int(input("Enter your number: "))
 # for i in range(a + 1):
 #     print(i)
-#     i += 1
 
 #---------TOP TO BOTTOM USING WHILE LOOP----------------------------------
 
 # a = int(input("Enter your number: "))
-# while (a >= 0):
+# while ( a >= 0 ):
 #     print(a)
 #     a -= 1
 

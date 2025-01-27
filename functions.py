@@ -38,20 +38,20 @@
 # # Defining multiple function and callling in one function
 # print('---- Defining multiple function and callling in one function---')
 def add (x, y):
-    print("Addition is ", x + y)
+    print( x + y)
 
-def subtract (x, y):
-    print("Subtraction is ", x - y)
+def sub(x, y):
+    print(x - y)
 
 def multiply (x, y):
-    print("Multiplication is ", x * y)
+    print( x * y)
 
-num_1 = 25
-num_2 = 20
+num_1 = 50
+num_2 = 25
 
-def calculate():
-    add(num_1, num_2)
-    subtract(num_1, num_2)
-    multiply(num_1, num_2)
+def calculate ():
+    add (num_1, num_2)
+    sub (num_1, num_2)
+    multiply (num_1, num_2)
 
 calculate()

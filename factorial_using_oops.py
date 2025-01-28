@@ -3,7 +3,6 @@ class Fact:
         self.a = int(input("Enter your number: "))
 
     def input(self):
-        # a = int(input("Enter your number: "))
         factorial = 1
 
         for i in range(self.a):

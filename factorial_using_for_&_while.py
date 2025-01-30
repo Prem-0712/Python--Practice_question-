@@ -31,8 +31,8 @@
 # a = int(input("Enter your number: "))
 # i = 1
 # fact = 1
-# while (i <= a):
-#     fact *= i
+# while ( i <= a ):
+#     fact *=  i
 #     i += 1
 # print(fact)
 
@@ -40,7 +40,7 @@
 
 # a = int(input("Enter your number: "))
 # fact = 1
-# while ( a > 0):
+# while ( a > 0 ):
 #     fact *= a
 #     a -= 1
 # print(fact)
@@ -49,8 +49,8 @@
 
 # a = int(input("Enter your number: "))
 # fact = 1
-# for i in range(a):
-#     fact *= ( i + 1)
+# for i in range (a):
+#     fact *= (i + 1)
 # print(fact)
 
 
@@ -58,7 +58,6 @@
 
 # a = int(input("Enter your number: "))
 # fact = 1
-
-# for i in range( a, 0, -1):
+# for i in range (a , 0, -1):
 #     fact *= i
 # print(fact)

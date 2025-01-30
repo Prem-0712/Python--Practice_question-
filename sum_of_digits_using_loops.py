@@ -2,7 +2,7 @@
 
 # a = int(input("Enter your number: "))
 # sum = 0
-# while ( a > 0):
+# while ( a > 0 ):
 #     x = a % 10
 #     sum += x
 #     a //= 10
@@ -12,7 +12,6 @@
 
 # a = int(input("Enter your number: "))
 # sum = 0
-
 # for i in str(a):
 #     sum += int(i)
 # print(sum)

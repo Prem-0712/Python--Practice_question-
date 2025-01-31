@@ -47,22 +47,22 @@
 
 # -------------------------ARMSTRONG USING WHILE LOOP---------------------
 
-a = int(input("Enter your number: "))
-duplicate_input = a
-original_number = a
-sum = 0
-power = 0 
+# a = int(input("Enter your number: "))
+# duplicate_input = a
+# original_number = a
+# sum = 0
+# power = 0 
 
-for i in str(a):
-    power += 1
+# for i in str(a):
+#     power += 1
     
-while ( a > 0 ):
-    x = a % 10 
-    sum += (x ** power)
-    a //= 10
+# while ( a > 0 ):
+#     x = a % 10 
+#     sum += (x ** power)
+#     a //= 10
 
-if ( sum == original_number):
-    print("It's an ARMSTRONG NUMBER !!")
+# if ( sum == original_number):
+#     print("It's an ARMSTRONG NUMBER !!")
 
-else:
-    print("It's not an ARMSTRONG NUMBER !!")
+# else:
+#     print("It's not an ARMSTRONG NUMBER !!")

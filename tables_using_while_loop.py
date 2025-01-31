@@ -15,7 +15,17 @@
 # for j in range(i):
 #     print ( a, "X", (j + 1), "=", (a * (j + 1)))
 
-
+# a = int(input("Enter your number: "))
+# print()
+# i = 1
+# while ( i <= a):
+#     j = 1
+#     while ( j <= 10):
+#         print(i, "X", j, "=", (i * j))
+#         # print()
+#         j += 1
+#     i += 1
+#     print()
 
 # a = int(input("Enter your number: "))
 # j = 1

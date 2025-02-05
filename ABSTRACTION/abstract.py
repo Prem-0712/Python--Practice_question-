@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
-class Shape (ABC):
+class Shape(ABC):
 
     @abstractmethod
-    def area (self):
+    def area(self):
         pass
 
     @abstractmethod

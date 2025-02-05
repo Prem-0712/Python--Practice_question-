@@ -1,6 +1,7 @@
 from abstract import Shape
 
-class Square(Shape):
+class Square( Shape ):
+
     def __init__(self, side):
         self.side = side
 
@@ -9,5 +10,3 @@ class Square(Shape):
     
     def perimeter(self):
         return ( (self.side) * 4)
-    
-    

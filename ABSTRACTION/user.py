@@ -1,6 +1,6 @@
 from function import Square
 
-Chauras = Square(5)
+Chauras = Square(int(input("Enter the side of square: ")))
 
-print(f"The area of Square is {Chauras.area()}")
-print(f"The permeter of Square is {Chauras.perimeter()}")
+print(f"The area of square is {Chauras.area}")
+print(f"The perimeter of square is {Chauras.perimeter}")

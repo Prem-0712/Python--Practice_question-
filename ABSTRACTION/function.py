@@ -2,8 +2,8 @@ from abstract import Shape
 
 class Square( Shape ):
 
-    def __init__(self, side):
-        self.side = side
+    def __init__(self):
+        self.side = int(input("Enter your number: "))
 
     def area(self):
         return ( (self.side) ** 2)

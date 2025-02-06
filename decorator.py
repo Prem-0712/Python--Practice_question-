@@ -44,16 +44,16 @@
 # print(words())
 
 
-def decorator(func):
+# def decorator(func):
 
-    def wrap():
-        return (func() * 2)
+#     def wrap():
+#         return (func() * 2)
     
-    return wrap
+#     return wrap
 
-@decorator
-def number():
-    a = int(input("Enter your number: "))
-    return (a)
+# @decorator
+# def number():
+#     a = int(input("Enter your number: "))
+#     return (a)
 
-print(number())
+# print(number())

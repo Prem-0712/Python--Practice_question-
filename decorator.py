@@ -30,15 +30,30 @@
 # Aven()
 
 
-def decorator ( func ):
+# def decorator ( func ):
+
+#     def wrap():
+#         return func().upper()
+
+#     return wrap
+
+# @decorator
+# def words():
+#     return ("avegers assemble !!")
+
+# print(words())
+
+
+def decorator(func):
 
     def wrap():
-        return func().upper()
-
+        return (func() * 2)
+    
     return wrap
 
 @decorator
-def words():
-    return ("avegers assemble !!")
+def number():
+    a = int(input("Enter your number: "))
+    return (a)
 
-print(words())
+print(number())

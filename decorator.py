@@ -30,18 +30,18 @@
 # Aven()
 
 
-# def decorator ( func ):
+# def decorator(function):
 
 #     def wrap():
-#         return func().upper()
-
+#         return function().upper()
+    
 #     return wrap
 
 # @decorator
-# def words():
-#     return ("avegers assemble !!")
+# def Words():
+#     print("avengers assemble !!")
 
-# print(words())
+# Words()
 
 
 # def decorator(func):
